@@ -1,0 +1,24 @@
+Stvari koje treba uraditi:
+- Index stranica koja treba da sadrzi:
+	-informacije o preduzecu
+	-ponudu preduzeca
+	-sistem registracije i log-ina
+
+-Nakon login-a korisnika web aplikacija odvodi do glavne stranice preduzeca.
+
+-Glavna stranica sadrzi:
+	-sa leve strane navbar kao na YouTube-u.
+	-prva i glavna stvar na tom meniju bi trebala da bude stranica sa dashboard-om.
+-Navbar sa leve strane sadrzi:
+	-dashboard
+	-Sprinkling system setup
+
+-Dashboard sadrzi:
+	-koliko dugo su bile upaljene prskalice
+	-koliko vode su potrosile
+
+Stvari koje su uradjene:
+-Na index stranici napravlje
+	-header sa imenom preduzeca, informacijama o preduzecu, ponudama i sign-up dugmetom(11/6/2020)
+	-dodat bootstrap, pozadina, razni stilovi u css-u, i napravljena "About" sekcija.(11/7/2020)
+	-zapoceta "Services" sekcija.(11/7/2020)

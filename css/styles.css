@@ -1,0 +1,55 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+.positionText{
+    margin-left: auto;
+    margin-right:auto;
+    padding-bottom: 1000px;
+}
+.header{
+    margin: inherit;
+    overflow: hidden;
+    line-height: 25px;
+    background-image: url("/Img/background-image.jpg");
+}
+.header a{
+    float: left;
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+}
+.header a:hover {
+    background-color: #ddd;
+}
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+.header-right{
+    float: right;
+}
+.header a.active {
+    background-color: rgb(33, 129, 173);
+    color: rgb(255, 255, 255);
+}
+body, html {
+    height: 100%;
+  }
+.bg {
+    background-image: url("/Img/background-image.jpg");
+     height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 4.5rem);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
