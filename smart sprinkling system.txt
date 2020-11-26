@@ -1,24 +1,44 @@
+SmartAgro jeste alatka koja treba korisnicima da pomogne oko vodjenja domacinstva. SmartAgro treba da olaksa korisniku sve poslove 
+oko kojih ne bi trebao da brine kao sto su temperatura domacinstva, zalivanje useva, hranjenje zivine i stoke. Koriscenjem SmartAgro-a
+sve navedene stvari treba da budu na dohvat ruke. Alatka ce takodje pratiti koliko je resursa potroseno izvrsavanjem navedenih akcija
+i pruzati trenutan obracun istih.
+-----------------------------------------------------------------------------------------------------
 Stvari koje treba uraditi:
 - Index stranica koja treba da sadrzi:
 	-informacije o preduzecu
 	-ponudu preduzeca
-	-sistem registracije i log-ina
+	-login i signup dugme
 
--Nakon login-a korisnika web aplikacija odvodi do glavne stranice preduzeca.
+-Nakon logovanja korisnik dolazi na glavnu stranicu
 
 -Glavna stranica sadrzi:
-	-sa leve strane navbar kao na YouTube-u.
-	-prva i glavna stvar na tom meniju bi trebala da bude stranica sa dashboard-om.
--Navbar sa leve strane sadrzi:
+	-sa leve strane sidebar koji zauzima malu kolicinu ekrana(10%-15%)
+	-ostatak stranice treba da bude njen glavni deo
+	-u zavisnosti od toga na kom se delu celokupne web aplikacije korisnik nalazi, stranica treba da bude active u sidebaru
+	-glavna stranica ce da se zove dashboard
+	-ona treba da pruzi korisniku sve informacije koje se njega ticu kao sto je(potrosnja struje, vode, hrane, temperatura i sl.
+	-na osnovu ovih informacija dashboard stranica treba da sadrzi i grafik koji ce da sabere cenu svih racuna i uporedi ih u grafiku.
+
+-Sidebar sa leve strane sadrzi:
 	-dashboard
-	-Sprinkling system setup
+	-Stranica za pokretanje pametnih sistema
+	-Stranica za pokretanje grejanja
+	-Stranica za hranjenje
+	-Setup(namestanje cena vode, struje, hrane...)
+	-History log(koliko je dugo trajala neka radnja, kada je zapoceta...)
 
--Dashboard sadrzi:
-	-koliko dugo su bile upaljene prskalice
-	-koliko vode su potrosile
-
+-Stranica za pokretanje pametnih sistema:
+	-sadrzi razlicite kontejnere za pokretanje razlicitih pametnih sistema
+	-kontejner za pokretanje prskalica treba da prati vreme trajanja radnje od pokretanja do zavrsetka.(vreme*cena vode + vreme*cena struje)
+	-kontejner za hranjenje stoke nudi automatsko pustanje hrane u stalama
+	-
+-----------------------------------------------------------------------------------------------------
 Stvari koje su uradjene:
--Na index stranici napravlje
+-Na index stranici napravljeno je sledece
 	-header sa imenom preduzeca, informacijama o preduzecu, ponudama i sign-up dugmetom(11/6/2020)
 	-dodat bootstrap, pozadina, razni stilovi u css-u, i napravljena "About" sekcija.(11/7/2020)
 	-zapoceta "Services" sekcija.(11/7/2020)
+	-zavrsena "Services" sekcija (11/24/2020)
+	-dodata i zavrsena "Contatcs" sekcija, takodje dodata Contacts opcija u hederu (11/25/2020)
+Stranica "Dashboard"
+	-dodat sidebar koji za sad ne moze da se iskljuci (11/26/2020)

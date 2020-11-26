@@ -1,19 +1,21 @@
-html,
-body,
-header,
-.view {
-  height: 100%;
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }
 .positionText{
     margin-left: auto;
     margin-right:auto;
-    padding-bottom: 1000px;
+    padding-top: 150px;
 }
 .header{
     margin: inherit;
     overflow: hidden;
     line-height: 25px;
-    background-image: url("/Img/background-image.jpg");
+    background-image: url("../Img/background-image.jpg");
 }
 .header a{
     float: left;
@@ -35,21 +37,68 @@ header,
     background-color: rgb(33, 129, 173);
     color: rgb(255, 255, 255);
 }
-body, html {
-    height: 100%;
-  }
-.bg {
-    background-image: url("/Img/background-image.jpg");
-     height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+
 .masthead {
-    padding-top: 10rem;
-    padding-bottom: calc(10rem - 4.5rem);
+    background-image: url('../Img/background-image.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
+    height: 100%;
 }
+.services{
+    padding-top: 50px;
+    background-image: url('../Img/services-background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height:100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+} 
+.contacts{
+    padding-top: 100px;
+    height:75%;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position:fixed;
+    top: 0;
+    left:0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition:0.5s;
+    padding-top: 60px;
+    z-index:1;
+}
+.sidenav a{
+    padding: 8px 8px 8px 32px;
+    font-size:25px;
+    color: #818181;
+    display:block;
+    transition:0.3s;
+}
+.sidenav a:hover{
+    color:#f1f1f1;
+}
+.sidenav  .closeBtn{
+    position: absolute;
+    top:0;
+    right:25px;
+    font-size:36px;
+    margin-left:50px;
+}
+.openBtn{
+    cursor: pointer;
+   font-size: 40px;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
