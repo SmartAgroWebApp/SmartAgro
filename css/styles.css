@@ -70,21 +70,24 @@ html,body
     position:fixed;
     top: 0;
     left:0;
-    background-color: #111;
+    background-color: #1212f7;
     overflow-x: hidden;
-    transition:0.5s;
+    transition:0.3s;
     padding-top: 60px;
     z-index:1;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(1,0,500,300);
 }
 .sidenav a{
     padding: 8px 8px 8px 32px;
     font-size:25px;
-    color: #818181;
+    color: white;
     display:block;
     transition:0.3s;
 }
 .sidenav a:hover{
     color:#f1f1f1;
+    text-shadow: black;
+    transform: scale(1);
 }
 .sidenav  .closeBtn{
     position: absolute;
@@ -93,10 +96,88 @@ html,body
     font-size:36px;
     margin-left:50px;
 }
+.sidenav .smartLogo{
+    position: absolute;
+    top:7.5px;
+    left:15px;
+    padding-right: 200px;
+    color: white;
+    font-size: 36px;
+}
 .openBtn{
     cursor: pointer;
    font-size: 40px;
 }
+.profileHeader{
+    height:7%;
+    background-color:#4d4dff;
+    box-shadow: -2px 7px 40px 2px rgba(0,0,0,0.50);
+
+}
+.profileHeader a{
+    position:absolute;
+    top:0;
+    right:25px;
+    font-size:30px;
+    margin-left: 50px;
+    padding-top:10px;
+}
+.card{
+    background:firebrick;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+
+}
+
+.card:hover{
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.chartSection{
+    height: 67%;
+    background-color:whitesmoke;
+    margin: 50px 50px 50px 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.05);
+
+}
+.waterCircuit{
+    height: 150px;
+    width: 280px;
+    background-color: #2389da;
+    border-style: default;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.5);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.waterCircuit:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.circuitTitle{
+    height: 50px;
+    width: 280px;
+    background-color: #2389da;
+    border-bottom:solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 4px 8px rgba(0,0,0,.05);
+
+}
+.stopWatchTitle{
+    height: 50px;
+    width: 280px;
+    background-color: #2389da;
+    border-bottom:solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5), 0 4px 8px rgba(0,0,0,.05);
+
+}
+.waterStopWatch{
+    height: 250px;
+    width: 550px;
+    background-color: #2389da;
+    padding-right:1500px;
+}
+
+
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}

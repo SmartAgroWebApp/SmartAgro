@@ -11,12 +11,86 @@
 </head>
 <body>
     <div class="sidenav" id="sidebar">
-        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
-        <a href="#dashboard">Dashboard</a>
-        <a href="#watering">Watering System</a>
-        <a href="#temperature">Temp. System</a>
+        <span>
+            <p class="smartLogo">SmartAgro</p>
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+        </span>
+        <a href="dashboard.html">Dashboard</a>
+        <a href="wateringSystem.html">Watering System</a>
+        <a href="#temperature">Heating System</a>
         <a href="#feeding">Feeding System</a>
+        
     </div>
-    <span class="openBtn" onclick="openNav()">&#9776;</span>
+    <div class="profileHeader">
+        <span class="openBtn" onclick="openNav()">&#9776;</span>
+        <ul>
+            <a href="" style="color:white;">User profile</a>
+        </ul>
+    </div>
+    <section class="row"><!--3 BLOKA-->
+      <div class="col-xl-3 col-md-6" style="padding-top:20px; padding-left: 35px;">
+          <div class="card" style="background-color: #2389da;">
+            <div class="card-block">
+              <div class="row">
+                <div class="col-8">
+                  <h4 class="text-white">Watering System </h4>
+                  <h6 class="text-white m-b-0">Total spent: </h6>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p class="text-white m-b-0"><i class="fas fa-1x fa-clock "></i> update : 2:15 am</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6" style="padding-top:20px; padding-right: 35px;">
+          <div class="card" style="background-color: firebrick;">
+            <div class="card-block">
+              <div class="row">
+                <div class="col-8">
+                  <h4 class="text-white">Heating System</h4>
+                  <h6 class="text-white m-b-0">Total spent:</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p class="text-white m-b-0"><i class="feather icon-clock text- f-14 m-r-10"></i>update : 2:15 am</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6" style="padding-top:20px; padding-left:35px;">
+          <div class="card" style="background-color: orange;">
+            <div class="card-block">
+              <div class="row ">
+                <div class="col-8">
+                  <h4 class="text-white">Feeding System</h4>
+                  <h6 class="text-white m-b-0">Total spent: </h6>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p class="text-white m-b-0"><i class="fas fa-1x fa-clock "></i> update : 2:15 am</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6" style="padding-top:20px; padding-right: 35px;">
+          <div class="card" style="background-color: green;">
+            <div class="card-block">
+              <div class="row ">
+                <div class="col-8">
+                  <h4 class="text-white">Summary</h4>
+                  <h6 class="text-white m-b-0">Total spent:</h6>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p class="text-white m-b-0"><i class="fas fa-1x fa-clock "></i> update : 2:15 am</p>
+            </div>
+          </div>
+        </div>
+  </section>
+  <section class="chartSection">
+  </section>
+
 </body>
 </html>
